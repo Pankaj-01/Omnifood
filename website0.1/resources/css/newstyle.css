@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato' Arial, Helvetica, sans-serif;
+    color: skyblue;
+    background-color: rgb(214, 73, 73);
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    background-image: url(/resources/images/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}

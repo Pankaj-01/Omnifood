@@ -1,0 +1,379 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'lato' Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: rgb(253, 252, 252);
+    font-size: 13px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+/* comment*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/resources/images/hero.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin: 0% !important;
+    margin-bottom: 20px !important;
+    color: rgb(235, 241, 243);
+    font-size: 250%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.row {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.title {
+    position: absolute;
+    width: 720px;
+    top: 40%;
+    left: 10%;
+}
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.btn:link,
+.btn:visited {
+    color: white;
+    font-size: 60%;
+    font-weight: 300;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 200px;
+    padding: 6px 18px;
+    transition: background-colour 0.3s, border 0.3s, color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #dd3c00;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: orangered;
+    color: rgb(255, 254, 254);
+    margin-right: 10px;
+    border: 1px solid orangered;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #dd3c00;
+    border-color: #dd3c00;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid rgb(223, 86, 37);
+    color: orangered;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border-color: #dd3c00;
+    color: white;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    float: left;
+    margin-top: 12px;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    font-size: 69%;
+    margin-top: 40px;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.nav li a:link,
+.nav li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 3px;
+}
+
+.nav li a:hover,
+.nav li a:active {
+    border-bottom: 1px solid orangered;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 200%;
+    margin: 30px 0;
+    text-transform: uppercase;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    width: 150px;
+    background-color: orangered;
+    content: " ";
+    margin: 20px auto;
+}
+
+.main {
+    font-size: 110%;
+    font-weight: 300;
+    width: 70%;
+    margin-left: 15%;
+}
+
+h3 {
+    font-size: 125%;
+    width: 80%;
+    font-weight: 300;
+}
+
+.fet-text {
+    line-height: 145%;
+    margin-top: 10px;
+}
+
+.icon {
+    height: 60px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.meals {
+    margin-top: 10px;
+}
+
+.fav {
+    width: 100%;
+    list-style: none;
+}
+
+.fav li {
+    display: block;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+    margin: 0%;
+}
+
+figure {
+    width: 100%;
+    margin: 0%;
+    background-color: black;
+}
+
+figure img {
+    margin: 0;
+    width: 100%;
+    transform: scale(1.3);
+    opacity: 0.70;
+    transition: transform 1.2s, opacity 0.5s;
+}
+
+figure img:hover {
+    transform: scale(1.04);
+    opacity: 1;
+}
+
+.phone {
+    width: 40%;
+}
+
+.steps:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 40px;
+}
+
+.steps:last-child {
+    padding-left: 3%;
+    margin-top: 40px;
+}
+
+
+.steps-points div {
+    color: orangered;
+    border: 1px solid orangered;
+    display: inline-block;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    float: left;
+    font-size: 140%;
+    text-align: center;
+    margin-right: 25px;
+}
+
+.steps-points {
+    margin-top: 20px;
+}
+
+.steps-points:last-of-type {
+    margin-bottom: 75px;
+}
+
+.android {
+    height: 35px;
+}
+
+.cities-pic {
+    width: 100%;
+}
+
+.cities-name {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.mini-icon {
+    margin: 2px;
+    width: 10px;
+    float: left;
+}
+
+.twitter {
+    margin: 2px;
+    width: 10px;
+    float: left;}
+    a {
+        color: orangered;
+    }
+.testing{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(/resources/images/back-customers.jpg) ;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        color: #fff;
+    }
+.quote{
+    font-size: 50px;
+}
+
+.customers-one{
+font-style: italic;
+font-size: 18px;
+}
+.customer{
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 50%;
+    float: left
+}
+.customer-icon{
+    font-size: 15px;
+    margin-top: 18px;
+    margin-left: 50px;
+}
+
+.list-item{
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+.box{
+    background-color:white;
+    
+}
+.list-item{
+    background-color:white;
+}
+.prices{
+     background-color:#f6f6f6;
+}
+.tick{
+    height: 10px;
+    float: left;
+}
+.money{
+    border-bottom: 2px solid #f6f6f6;
+    font-size: 20px;
+}
+.btn-line{
+    border-bottom: 2px solid #f6f6f6;
+
+}
+span{
+    font-size: 15px;
+}
+.per-meal{
+    font-size: 15px;
+}
+.btn-btn{
+    margin-top: 2px;
+    margin-left: 60px;
+}
+.send-it{
+    margin-left:150px;
+}
+.last{
+    background-color: #191919;
+}
+.about-us li {
+    list-style: none;
+    color: beige;
+display: inline-block;
+    word-spacing: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.mini-icons{
+    height: 12px;
+    list-style: none;
+    transform: 15px;
+    opacity: 0.70;
+    transition: transform 1.2s, opacity 0.5s;
+}
+.mini-icons:hover{
+    background-color: white;
+    transform: scale(1.2);
+    opacity: 1;
+}
+.icon-sizes{
+    float: right;
+}
+.copyright{
+    color: beige;
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-bottom: 30px;
+}
+.form{
+    margin-left: 280px;
+    margin-bottom: 15px;
+}
+
